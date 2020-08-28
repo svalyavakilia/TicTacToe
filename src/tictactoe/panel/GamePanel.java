@@ -182,7 +182,7 @@ public class GamePanel extends JPanel {
      * EndGamePanel.
      *
      * @param result Contains the information on who has won the game
-     *               or it has ended in a draw.
+     *               or if it has ended in a draw.
      *
      * @author svalyavakilia
      */

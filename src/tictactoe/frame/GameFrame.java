@@ -1,11 +1,11 @@
 package tictactoe.frame;
 
 import javax.swing.JFrame;
-import tictactoe.panel.GamePanel;
+import tictactoe.panel.MainMenuPanel;
 
 public class GameFrame extends JFrame {
     public GameFrame() {
-        setContentPane(new GamePanel());
+        setContentPane(new MainMenuPanel());
         pack();
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLocationRelativeTo(null);

@@ -11,6 +11,7 @@ import javax.swing.JPanel;
 import javax.swing.SwingUtilities;
 
 import static java.awt.Color.BLACK;
+import static java.awt.Color.WHITE;
 import static java.awt.Font.BOLD;
 import static java.awt.Font.MONOSPACED;
 import static javax.swing.SwingConstants.CENTER;
@@ -40,7 +41,7 @@ public class EndGamePanel extends JPanel {
     public EndGamePanel(final String result) {
         setPreferredSize(new Dimension(300, 300));
         setLayout(null);
-        setBackground(new Color(232, 222, 47));
+        setBackground(WHITE);
 
         final Font endGamePanelFont = new Font(MONOSPACED, BOLD, 25);
 

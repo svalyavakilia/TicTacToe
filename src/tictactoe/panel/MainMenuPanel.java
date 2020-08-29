@@ -9,6 +9,7 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.SwingUtilities;
 
+import static java.awt.Color.WHITE;
 import static java.awt.Font.BOLD;
 import static java.awt.Font.MONOSPACED;
 
@@ -25,13 +26,13 @@ public class MainMenuPanel extends JPanel {
     public MainMenuPanel() {
         setPreferredSize(new Dimension(300, 300));
         setLayout(null);
-        setBackground(new Color(232, 222, 47));
+        setBackground(WHITE);
 
         play.setSize(new Dimension(200, 80));
         play.setLocation(new Point(50, 110));
         play.setText("Play!");
         play.setFont(new Font(MONOSPACED, BOLD, 25));
-        play.setBackground(new Color(181, 230, 29));
+        play.setBackground(new Color(255, 217, 41));
         play.addActionListener(listener -> switchToGamePanel());
         play.setFocusable(false);
 

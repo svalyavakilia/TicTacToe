@@ -1,5 +1,6 @@
 package tictactoe;
 
+import javax.swing.SwingUtilities;
 import tictactoe.frame.GameFrame;
 
 public class TicTacToeGame {
@@ -7,6 +8,6 @@ public class TicTacToeGame {
      * Creates a new instance of GameFrame class.
      */
     public static void start() {
-        new GameFrame();
+        SwingUtilities.invokeLater(GameFrame::new);
     }
 }

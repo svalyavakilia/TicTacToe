@@ -1,5 +1,5 @@
-# Tic-tac-toe game
-A simple yet entertaining tic-tac-toe game for two (on one device) :x::o:.
+# Tic-tac-toe game :x::o:
+A simple yet entertaining tic-tac-toe game for two (on one device).
 
 The game has been written in Java, Swing.
 
